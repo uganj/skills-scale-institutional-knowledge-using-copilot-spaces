@@ -1,14 +1,14 @@
 # OctoAcme Project Management Documentation
 
-Welcome to the OctoAcme Project Management knowledge base. This directory contains comprehensive process documentation for managing projects from initiation through closure, ensuring consistent, repeatable project execution across the organization.
+Welcome to the OctoAcme Project Management knowledge base. This directory contains comprehensive process documentation that guides how we execute projects from initiation through closure, ensuring consistent and repeatable project delivery across the organization.
 
-## About OctoAcme's Approach
+## OctoAcme Project Management Approach
 
-OctoAcme follows a structured yet iterative project management methodology built on core principles:
+OctoAcme manages projects using a structured, iterative methodology built on five core principles:
 
 - **Customer-first**: Prioritize customer value and usability in all decisions
-- **Iterative delivery**: Deliver small, testable increments regularly
-- **Clear ownership**: Each project has named Project Manager (PM) and Product Lead roles
+- **Iterative delivery**: Deliver small, testable increments regularly rather than big-bang releases
+- **Clear ownership**: Every project has a named Project Manager (PM) and Product Lead with clear responsibilities
 - **Data-informed decisions**: Measure impact and iterate based on evidence
 - **Psychological safety**: Encourage feedback, learning, and continuous improvement
 
@@ -16,73 +16,94 @@ OctoAcme follows a structured yet iterative project management methodology built
 
 OctoAcme projects progress through five key stages:
 
-1. **Initiation** - Validate business need, align stakeholders, define success metrics
-2. **Planning** - Break work into shippable increments, identify risks and dependencies
-3. **Execution** - Build, test, review, and iterate with regular team rhythm
-4. **Release** - Deploy to production following standardized procedures and verification
-5. **Close & Retrospective** - Capture learnings and convert them into improvements
+```
+Initiation → Planning → Execution → Release → Close & Retrospective
+```
+
+Each stage has defined gates, deliverables, and success criteria to ensure alignment and reduce risk.
 
 ## Core Roles
 
-- **Project Manager (PM)**: Coordinates delivery, schedules, risks, and communications
-- **Product Manager (PdM)**: Defines outcomes, prioritizes backlog, measures success
-- **Developers**: Implement features, collaborate on design, ensure quality
-- **QA/Testing**: Validate quality and acceptance criteria
-- **Stakeholders**: Provide inputs and approvals
+- **Project Manager (PM)**: Coordinates delivery, manages schedules, risks, and communications
+- **Product Manager (PdM)**: Defines outcomes, prioritizes the backlog, and measures success
+- **Developers**: Design, implement, and test features to meet acceptance criteria
+- **QA/Testing**: Validate quality, test acceptance criteria, and ensure production readiness
+- **Stakeholders**: Provide inputs, approvals, and high-level direction
 
-## Process Documents
+## Process Documentation
+
+Navigate to the specific process document you need based on your current project stage:
 
 ### 📋 [Project Management Overview](./octoacme-project-management-overview.md)
-Start here for a high-level introduction to OctoAcme's project management approach, key roles, artifacts, and communication cadence. Perfect for new team members getting oriented.
+**Start here first.** High-level introduction to OctoAcme's approach, roles, key artifacts, and communication cadence. Best for new team members getting oriented.
 
-### 🚀 [Project Initiation Guide](./octoacme-project-initiation.md)
-Learn how to validate and authorize new work. Covers confirming business need, identifying stakeholders, defining success criteria, and the go/no-go decision gate for moving into planning.
+### 🚀 [Project Initiation](./octoacme-project-initiation.md)
+**Use when:** Starting a new project or feature proposal.  
+Guidance on validating business need, identifying stakeholders, defining success criteria, and the decision gate for moving into planning.
 
 ### 📐 [Project Planning](./octoacme-project-planning.md)
-Turn an approved initiative into an actionable plan. Includes guidance on breaking work into increments, estimating scope, defining acceptance criteria, and managing dependencies and risks.
+**Use when:** An initiative is approved and you need to create an actionable plan.  
+Learn how to break work into shippable increments, estimate scope, define acceptance criteria, identify dependencies, and create release plans.
 
 ### ⚙️ [Execution & Tracking](./octoacme-execution-and-tracking.md)
-Manage day-to-day execution and track progress toward milestones. Covers team rhythm (standups, syncs, demos), PR workflow, quality standards, and blocker escalation procedures.
+**Use during:** Active project delivery.  
+Manage day-to-day execution, track progress toward milestones, run effective standups and reviews, maintain quality standards, and escalate blockers.
 
 ### ⚠️ [Risks & Communication](./octoacme-risks-and-communication.md)
-Identify, manage, and communicate project risks effectively. Includes risk register template, stakeholder communication strategies, and escalation paths for different issue types.
+**Use throughout:** Any project stage, especially when challenges arise.  
+Identify and manage project risks, communicate with stakeholders, escalate issues effectively, and handle incident response.
 
 ### 🎯 [Release & Deployment](./octoacme-release-and-deployment.md)
-Standardize how OctoAcme releases features to production. Covers release types, pre-release requirements, deployment checklists, rollback procedures, and incident response.
+**Use when:** Preparing to release features to production.  
+Standardize release procedures, execute deployment checklists, verify functionality, handle rollback scenarios, and communicate releases to stakeholders.
 
 ### 🔄 [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)
-Capture learnings after sprints, releases, or milestones. Learn how to run effective retrospectives and convert action items into measurable improvements.
+**Use after:** Sprint completion, major releases, or significant milestones.  
+Run effective retrospectives, capture learnings, convert action items into improvements, and measure the impact of changes.
 
 ### 👥 [Roles & Personas](./octoacme-roles-and-personas.md)
-Detailed descriptions of typical project roles and responsibilities. Use these persona definitions to understand expectations for Developers, Product Managers, and Project Managers.
+**Reference when:** You need detailed role definitions and responsibilities.  
+Comprehensive descriptions of typical project roles and responsibilities for Developers, Product Managers, and Project Managers.
 
-## How to Use This Documentation
+## Quick Start Guide
 
-- **For new projects**: Start with the [Project Initiation Guide](./octoacme-project-initiation.md), then move through Planning, Execution, and Release in sequence
-- **For ongoing execution**: Reference [Execution & Tracking](./octoacme-execution-and-tracking.md) for team rhythm and [Risks & Communication](./octoacme-risks-and-communication.md) for managing blockers
-- **For process improvements**: Use the issue template [Add Content to Project Management Process Docs](./.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml) to propose updates
+- **New to OctoAcme?** Start with the [Project Management Overview](./octoacme-project-management-overview.md)
+- **Starting a new project?** Follow the path: [Initiation](./octoacme-project-initiation.md) → [Planning](./octoacme-project-planning.md) → [Execution](./octoacme-execution-and-tracking.md) → [Release](./octoacme-release-and-deployment.md)
+- **Ongoing execution?** Reference [Execution & Tracking](./octoacme-execution-and-tracking.md) and [Risks & Communication](./octoacme-risks-and-communication.md)
+- **Project wrapping up?** See [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)
 
-## Key Artifacts Referenced
+## Key Artifacts
 
-- **Project Charter / One-pager**: Business case and success criteria
-- **Roadmap and Release Plan**: Timeline and milestones
-- **Sprint/Iteration Backlog**: Prioritized work with acceptance criteria
-- **Risk Register**: Identified risks with mitigation plans
-- **Retrospective notes**: Learnings and action items
+Projects typically use these key artifacts:
+
+- **Project Charter / One-pager**: Defines business case, problem statement, and success metrics
+- **Roadmap and Release Plan**: Timeline, milestones, and delivery increments
+- **Sprint/Iteration Backlog**: Prioritized work with acceptance criteria and estimates
+- **Risk Register**: Identified risks, mitigation plans, and owners
+- **Retrospective Notes**: Learnings, action items, and progress tracking
 
 ## Communication Cadence
 
 - **Daily**: Team standups (15 min) - progress, blockers, dependencies
 - **Weekly**: PM + PdM sync, delivery team standups, risk reviews
-- **Bi-weekly or Sprint-end**: Demos and stakeholder reviews
-- **Monthly**: Stakeholder updates
-- **Ad-hoc**: Escalations and incident communication
+- **Sprint-end or bi-weekly**: Demos and stakeholder reviews
+- **Monthly**: Executive stakeholder updates
+- **Ad-hoc**: Escalations, incident communication, decision gates
 
 ## Contributing to This Documentation
 
-To propose updates or new content for these process documents, use the [Add Content to Project Management Process Docs issue template](.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml).
+To propose updates, improvements, or new content to these process documents, use the [Add Content to Project Management Process Docs issue template](./.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml).
+
+## Questions?
+
+If you have questions about these processes or need clarification:
+1. Review the relevant process document
+2. Check the Project Management Overview for foundational concepts
+3. Reach out to your Project Manager or Product Lead
+4. Open an issue to suggest improvements to the documentation
 
 ---
 
-**Last updated**: May 2026  
-**Maintained by**: OctoAcme Project Management Team
+**Last Updated:** May 2026  
+**Maintained by:** OctoAcme Project Management Team  
+**Purpose:** Centralize and scale institutional project management knowledge
